@@ -144,16 +144,22 @@
 .recent-post-item h3 {
     color: #21243D;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 30px;
 }
-
+.recent-post-item-date {
+    font-size: 18px;
+}
 .recent-post-item p {
     color: #21243D;
     margin-top: 15px;
     font-size: 16px;
     line-height: 22px;
 }
+.recent-post-row a:hover{
+    color: #00A8CC;
+}
+
 
 
 
@@ -221,10 +227,10 @@
     .recent-post-item {
         width: 95%;
         height: 50%;
-        margin: 15px 10px 5px 10px;
+        margin: 15px 10px 20px 10px;
         background: #FFFFFF;
         padding: 10px 6px 22px 19px;
-        margin-bottom: 20px;
+ 
     }
 
     .recent-post-item h3 {
@@ -352,7 +358,7 @@
     .recent-post-item {
         width: 95%;
         height: 266px;
-        margin: 15px 10px 5px 10px;
+        margin: 15px 10px 20px 10px;
         background: #FFFFFF;
         padding: 10px 6px 22px 19px;
     }
@@ -370,4 +376,35 @@
         font-size: 16px;
         line-height: 22px;
     }
+
+
+    .features-work-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 20px 17px 16px 18px;
+        text-align-last: left;
+        
+    }
+    .features-work-img img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    
+    .features-work-category-date{
+     display: flex;
+     align-items: center;
+    }
+    .features-work-category-date .date{
+        margin-right: 10px;
+        padding: 3px;
+        border: 2px solid #000;
+        border-radius: 5px;
+        color: white;
+        background: #142850;
+       }
+
+
 }
